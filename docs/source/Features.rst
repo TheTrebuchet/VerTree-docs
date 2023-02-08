@@ -1,7 +1,5 @@
 Features
 ==================================
-Hopefully explained breefly and with images, will be expanded with new features.
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 How do I use it?
 ----------------
 placement
