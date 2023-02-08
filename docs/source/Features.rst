@@ -33,6 +33,8 @@ If you hover a mouse over them, you will see simple descriptions.
 
 Main Parameters
 """"""""""""""
+.. image:: ./img/main.png
+   :width: 300
 
 * **Trunk segments** are the number of verts on the cross-section of the tree, it gets accorddingly lower on next branches
 * **Simulation resolution** are the number of steps for algorithm and the number of verts alongside the trunk, significantly slows down simulation
@@ -42,6 +44,8 @@ Main Parameters
 
 Growth parameters
 """""""""""""""""""
+.. image:: ./img/growth.png
+   :width: 300
 this influences growth direction of all branches
 
 **Bending Amount** *primary effect* bends the tree according to noise
@@ -52,25 +56,37 @@ this influences growth direction of all branches
 
 Branch parameters
 """""""""""""""""""
+.. image:: ./img/branch.png
+   :width: 300
 I won't be explaining all of these in details, they are quite self-explanatory.
 
 * **Next Branch Scaling** scales down each branch in subsequent levels - 0.5 means branch of level 3 will have 0.25 of the original tree height
 * **Top** and **Bottom angle** angle between the branch and local trunk direction
 * **Branching Height** part of the tree at which the branching starts
 
-Branch parameters
+Simple Jiggle
 """""""""""""""""""
+.. image:: ./img/jiggle.png
+   :width: 300
 **jiggle** is a noise that can help make branches and trunk be a little jagged and random, not intended to change direction like **bending**
 
 Seeds and Variety
 """""""""""""""""""
+.. image:: ./img/seeds.png
+   :width: 300
 Seeds are self-explanatory, **branch variety** affects branch length and angle. 
 For example 0.1 means angles and lengths will can be lower or higher by 0.1 of their values
 
 Scale and Shape
 """""""""""""""""""
-
+.. image:: ./img/scale.png
+   :width: 300
 **scale** changes the scale of the whole *mesh*, not object
 **Trunk Flare** can widen up the base a little bit, don't overdo it
 **General Shape** changes the length of branches according to their placement, I suggest playing with it.
    This setting can ultimately determine if you're making a pine tree or an apple tree.
+
+Advanced
+"""""""""""""""""""
+.. image:: ./img/advanced.png
+   :width: 300
