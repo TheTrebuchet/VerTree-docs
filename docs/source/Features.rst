@@ -34,7 +34,7 @@ Main
 ^^^^
 .. image:: ./img/main.png
    :width: 200
-   :class: with-shadow float-right
+   :class: with-shadow float-right with-border
 
 * **Trunk segments** are the number of verts on the cross-section of the tree, it gets accorddingly lower on next branches
 * **Simulation resolution** are the number of steps for algorithm and the number of verts alongside the trunk, significantly slows down simulation
@@ -50,7 +50,7 @@ this influences growth direction of all branches
 
 .. image:: ./img/growth.png
    :width: 200
-   :class: with-shadow float-right
+   :class: with-shadow float-right with-border
 
 * **Bending Amount** *primary effect* bends the tree according to noise
 * **Bending Scale**  lets you change the scale of the noise
@@ -64,7 +64,7 @@ Branch
 ^^^^^^
 .. image:: ./img/branch.png
    :width: 200
-   :class: with-shadow float-right
+   :class: with-shadow float-right with-border
 I won't be explaining all of these in details, they are quite self-explanatory.
 
 * **Next Branch Scaling** scales down each branch in subsequent levels - 0.5 means branch of level 3 will have 0.25 of the original tree height
@@ -77,7 +77,7 @@ Simple Jiggle
 ^^^^^^^^^^^^^
 .. image:: ./img/jiggle.png
    :width: 200
-   :class: with-shadow float-right
+   :class: with-shadow float-right with-border
 
 **jiggle** is a noise that can help make branches and trunk be a little jagged and random, not intended to change direction like **bending**
 
@@ -87,7 +87,7 @@ Seeds and Variety
 ^^^^^^^^^^^^^^^^^
 .. image:: ./img/seeds.png
    :width: 200
-   :class: with-shadow float-right
+   :class: with-shadow float-right with-border
 
 Seeds are self-explanatory, **branch variety** affects branch length and angle. 
 For example 0.1 means angles and lengths will can be lower or higher by 0.1 of their values
@@ -98,7 +98,7 @@ Scale and Shape
 ^^^^^^^^^^^^^^
 .. image:: ./img/scale.png
    :width: 200
-   :class: with-shadow float-right
+   :class: with-shadow float-right with-border
 
 * **scale** changes the scale of the whole *mesh*, not object
 * **Trunk Flare** can widen up the base a little bit, don't overdo it
@@ -111,7 +111,7 @@ Advanced
 ^^^^^^^^
 .. image:: ./img/advanced.png
    :width: 200
-   :class: with-shadow float-right
+   :class: with-shadow float-right with-border
 
 Lets the user select the leaf object.
 
