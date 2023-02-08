@@ -13,17 +13,17 @@ Operators
 --------
 There are multiple things you can do in TreeGen
 
-* ``Create`` places a tree with all the parameters below on your ``cursor``.
-   Adjusting parameters will automatically update the tree in realtime.
-   If you feel like it's lagging a bit you can switch off faces, it might help.
+``Create`` places a tree with all the parameters below on your ``cursor``.
+Adjusting parameters will automatically update the tree in realtime.
+If you feel like it's lagging a bit you can switch off faces, it might help.
 
-* ``Sync`` synchronises the parameters in the panel with a tree you just happened to click on.
+``Sync`` synchronises the parameters in the panel with a tree you just happened to click on.
 
-* ``Reset to defaults`` were you to mess those parameters quite a bit.
+``Reset to defaults`` were you to mess those parameters quite a bit.
 
-* ``Draw`` places a curve object and lets you edit it freely
-   I encourage using **draw** mode in the toolbar on the left, but you can edit existing curve.
-   After you feel like you're done, hit ``regrow``
+``Draw`` places a curve object and lets you edit it freely
+I encourage using **draw** mode in the toolbar on the left, but you can edit existing curve.
+After you feel like you're done, hit ``regrow``
 
 Parameters
 -----------
