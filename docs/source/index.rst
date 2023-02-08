@@ -16,8 +16,8 @@ Contents
 
 .. toctree::
 
-   Features Overview
-   Thought Process
+   FeaturesOverview
+   ThoughtProcess
    Roadmap
 
    
