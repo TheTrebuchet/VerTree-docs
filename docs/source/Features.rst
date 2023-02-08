@@ -1,17 +1,15 @@
 Features
 ==================================
-How do I use it?
-----------------
-placement
-^^^^^^^^^^^^^^^^
+Panel
+---------
 The addon is located in the **N-panel**, note that you have to be in object mode in order to access it.
 Hit **create** and there is the **TreeGen panel**.
 
 .. image:: ./img/overview.png
    :width: 300
 
-actions
-^^^^^^^
+Operators
+--------
 There are multiple things you can do in TreeGen
 * ``Create`` places a tree with all the parameters below on your ``cursor``.
    Adjusting parameters will automatically update the tree in realtime.
@@ -26,13 +24,13 @@ There are multiple things you can do in TreeGen
    I encourage using **draw** mode in the toolbar on the left, but you can edit existing curve.
    After you feel like you're done, hit ``regrow``
 
-parameters
-^^^^^^^^^^
+Parameters
+-----------
 There are quite a bit of parameters but I believe they are quite intuitive.
 If you hover a mouse over them, you will see simple descriptions.
 
-Main Parameters
-""""""""""""""
+Main
+^^^^
 .. image:: ./img/main.png
    :width: 300
 
@@ -42,22 +40,22 @@ Main Parameters
 * **Max Radius** is absolute value, like Height
 * **Tip radius** is the minimum radius a branch can have
 
-Growth parameters
-"""""""""""""""""""
+Growth
+^^^^^^
 .. image:: ./img/growth.png
-   :width: 300
+   :width: 100
 this influences growth direction of all branches
 
-**Bending Amount** *primary effect* bends the tree according to noise
-**Bending Scale**  lets you change the scale of the noise
-**Tip Bending** acts like a will for the smallest branches to pull up to the sky
-**Weight Factor** *secondary effect* weighs down the whole tree, especially the branches, too much weight might lay your tree flat!
-**Correction Amount** think of it like post processing for straightening up a tree that bent too much
+* **Bending Amount** *primary effect* bends the tree according to noise
+* **Bending Scale**  lets you change the scale of the noise
+* **Tip Bending** acts like a will for the smallest branches to pull up to the sky
+* **Weight Factor** *secondary effect* weighs down the whole tree, especially the branches, too much weight might lay your tree flat!
+* **Correction Amount** think of it like post processing for straightening up a tree that bent too much
 
-Branch parameters
-"""""""""""""""""""
+Branch
+^^^^^^
 .. image:: ./img/branch.png
-   :width: 300
+   :width: 100
 I won't be explaining all of these in details, they are quite self-explanatory.
 
 * **Next Branch Scaling** scales down each branch in subsequent levels - 0.5 means branch of level 3 will have 0.25 of the original tree height
@@ -65,28 +63,30 @@ I won't be explaining all of these in details, they are quite self-explanatory.
 * **Branching Height** part of the tree at which the branching starts
 
 Simple Jiggle
-"""""""""""""""""""
+^^^^^^^^^^^^^
 .. image:: ./img/jiggle.png
-   :width: 300
+   :width: 100
 **jiggle** is a noise that can help make branches and trunk be a little jagged and random, not intended to change direction like **bending**
 
 Seeds and Variety
-"""""""""""""""""""
+^^^^^^^^^^^^^^^^^
 .. image:: ./img/seeds.png
-   :width: 300
+   :width: 100
 Seeds are self-explanatory, **branch variety** affects branch length and angle. 
 For example 0.1 means angles and lengths will can be lower or higher by 0.1 of their values
 
 Scale and Shape
-"""""""""""""""""""
+^^^^^^^^^^^^^^
 .. image:: ./img/scale.png
-   :width: 300
-**scale** changes the scale of the whole *mesh*, not object
-**Trunk Flare** can widen up the base a little bit, don't overdo it
-**General Shape** changes the length of branches according to their placement, I suggest playing with it.
+   :width: 100
+* **scale** changes the scale of the whole *mesh*, not object
+* **Trunk Flare** can widen up the base a little bit, don't overdo it
+* **General Shape** changes the length of branches according to their placement, I suggest playing with it.
    This setting can ultimately determine if you're making a pine tree or an apple tree.
 
 Advanced
-"""""""""""""""""""
+^^^^^^^^
 .. image:: ./img/advanced.png
-   :width: 300
+   :width: 100
+
+Lets the user select the leaf object.
