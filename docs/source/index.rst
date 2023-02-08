@@ -33,4 +33,3 @@ How do I use it?
 The addon is located in the **N-panel**, note that you have to be in object mode in order to access it.
 
 .. image:: ./img/overview.png
-   :width 300
