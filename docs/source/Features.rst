@@ -13,6 +13,11 @@ Operators
 --------
 There are multiple things you can do in TreeGen
 
+.. image:: ./img/actions.png
+   :width: 200
+   :class: with-shadow float-right with-border
+
+
 ``Create`` places a tree with all the parameters below on your ``cursor``.
 Adjusting parameters will automatically update the tree in realtime.
 If you feel like it's lagging a bit you can switch off faces, it might help.
@@ -24,6 +29,8 @@ If you feel like it's lagging a bit you can switch off faces, it might help.
 ``Draw`` places a curve object and lets you edit it freely
 I encourage using **draw** mode in the toolbar on the left, but you can edit existing curve.
 After you feel like you're done, hit ``regrow``
+
+..  rst-class::  clear-both
 
 Parameters
 -----------
