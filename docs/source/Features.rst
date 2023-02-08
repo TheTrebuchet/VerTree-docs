@@ -11,12 +11,12 @@ Hit **create** and there is the **TreeGen panel**.
 Operators
 --------
 There are multiple things you can do in TreeGen
+
 * ``Create`` places a tree with all the parameters below on your ``cursor``.
    Adjusting parameters will automatically update the tree in realtime.
    If you feel like it's lagging a bit you can switch off faces, it might help.
 
 * ``Sync`` synchronises the parameters in the panel with a tree you just happened to click on.
-   Generally the 
 
 * ``Reset to defaults`` were you to mess those parameters quite a bit.
 
