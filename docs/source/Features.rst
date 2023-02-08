@@ -6,7 +6,7 @@ The addon is located in the **N-panel**, note that you have to be in object mode
 Hit **create** and there is the **TreeGen panel**.
 
 .. image:: ./img/overview.png
-   :width: 300
+   :width: 500
 
 Operators
 --------
@@ -32,7 +32,7 @@ If you hover a mouse over them, you will see simple descriptions.
 Main
 ^^^^
 .. image:: ./img/main.png
-   :width: 300
+   :width: 200
 
 * **Trunk segments** are the number of verts on the cross-section of the tree, it gets accorddingly lower on next branches
 * **Simulation resolution** are the number of steps for algorithm and the number of verts alongside the trunk, significantly slows down simulation
@@ -43,7 +43,7 @@ Main
 Growth
 ^^^^^^
 .. image:: ./img/growth.png
-   :width: 100
+   :width: 200
 this influences growth direction of all branches
 
 * **Bending Amount** *primary effect* bends the tree according to noise
@@ -55,7 +55,7 @@ this influences growth direction of all branches
 Branch
 ^^^^^^
 .. image:: ./img/branch.png
-   :width: 100
+   :width: 200
 I won't be explaining all of these in details, they are quite self-explanatory.
 
 * **Next Branch Scaling** scales down each branch in subsequent levels - 0.5 means branch of level 3 will have 0.25 of the original tree height
@@ -65,20 +65,20 @@ I won't be explaining all of these in details, they are quite self-explanatory.
 Simple Jiggle
 ^^^^^^^^^^^^^
 .. image:: ./img/jiggle.png
-   :width: 100
+   :width: 200
 **jiggle** is a noise that can help make branches and trunk be a little jagged and random, not intended to change direction like **bending**
 
 Seeds and Variety
 ^^^^^^^^^^^^^^^^^
 .. image:: ./img/seeds.png
-   :width: 100
+   :width: 200
 Seeds are self-explanatory, **branch variety** affects branch length and angle. 
 For example 0.1 means angles and lengths will can be lower or higher by 0.1 of their values
 
 Scale and Shape
 ^^^^^^^^^^^^^^
 .. image:: ./img/scale.png
-   :width: 100
+   :width: 200
 * **scale** changes the scale of the whole *mesh*, not object
 * **Trunk Flare** can widen up the base a little bit, don't overdo it
 * **General Shape** changes the length of branches according to their placement, I suggest playing with it.
@@ -87,6 +87,6 @@ Scale and Shape
 Advanced
 ^^^^^^^^
 .. image:: ./img/advanced.png
-   :width: 100
+   :width: 200
 
 Lets the user select the leaf object.
