@@ -31,5 +31,11 @@ I won't make this addon public on github because I see it as my own personal cha
 How do I use it?
 ----------------
 The addon is located in the n-panel, note that you have to be in object mode in order to access it.
+
+.. image:: /img/overview.png
+
 .. image:: img/overview.png
-   :width: 400
+
+.. image:: overview.png
+
+.. image:: ./img/overview.png
