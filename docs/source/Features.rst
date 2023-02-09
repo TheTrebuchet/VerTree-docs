@@ -3,7 +3,7 @@ Features
 Panel
 ---------
 The addon is located in the **N-panel**, note that you have to be in object mode in order to access it.
-Hit **create** and there is the **TreeGen panel**.
+Hit **create** and there is the **VerTree panel**.
 
 .. image:: ./img/overview.png
    :width: 500
@@ -11,11 +11,13 @@ Hit **create** and there is the **TreeGen panel**.
 
 Operators
 --------
-There are multiple things you can do in TreeGen
+There are multiple things you can do in VerTree
 
 .. image:: ./img/actions.png
    :width: 200
    :class: with-shadow float-right with-border
+   :class: img-rounded
+
 
 
 ``Create`` places a tree with all the parameters below on your ``cursor``.
@@ -42,6 +44,8 @@ Main
 .. image:: ./img/main.png
    :width: 200
    :class: with-shadow float-right with-border
+   :class: img-rounded
+
 
 * **Trunk segments** are the number of verts on the cross-section of the tree, it gets accorddingly lower on next branches
 * **Simulation resolution** are the number of steps for algorithm and the number of verts alongside the trunk, significantly slows down simulation
@@ -58,6 +62,8 @@ this influences growth direction of all branches
 .. image:: ./img/growth.png
    :width: 200
    :class: with-shadow float-right with-border
+   :class: img-rounded
+
 
 * **Bending Amount** *primary effect* bends the tree according to noise
 * **Bending Scale**  lets you change the scale of the noise
@@ -72,6 +78,8 @@ Branch
 .. image:: ./img/branch.png
    :width: 200
    :class: with-shadow float-right with-border
+   :class: img-rounded
+
 I won't be explaining all of these in details, they are quite self-explanatory.
 
 * **Next Branch Scaling** scales down each branch in subsequent levels - 0.5 means branch of level 3 will have 0.25 of the original tree height
@@ -85,6 +93,8 @@ Simple Jiggle
 .. image:: ./img/jiggle.png
    :width: 200
    :class: with-shadow float-right with-border
+   :class: img-rounded
+
 
 **jiggle** is a noise that can help make branches and trunk be a little jagged and random, not intended to change direction like **bending**
 
@@ -95,6 +105,8 @@ Seeds and Variety
 .. image:: ./img/seeds.png
    :width: 200
    :class: with-shadow float-right with-border
+   :class: img-rounded
+
 
 Seeds are self-explanatory, **branch variety** affects branch length and angle. 
 For example 0.1 means angles and lengths will can be lower or higher by 0.1 of their values
@@ -106,6 +118,8 @@ Scale and Shape
 .. image:: ./img/scale.png
    :width: 200
    :class: with-shadow float-right with-border
+   :class: img-rounded
+
 
 * **scale** changes the scale of the whole *mesh*, not object
 * **Trunk Flare** can widen up the base a little bit, don't overdo it
@@ -119,6 +133,8 @@ Advanced
 .. image:: ./img/advanced.png
    :width: 200
    :class: with-shadow float-right with-border
+   :class: img-rounded
+
 
 Lets the user select the leaf object.
 

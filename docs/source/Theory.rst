@@ -1,2 +1,2 @@
-Theory of TreeGen
+Theory of VerTree
 ===========================
