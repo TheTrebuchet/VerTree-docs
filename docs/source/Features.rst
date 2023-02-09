@@ -8,6 +8,7 @@ Hit **create** and there is the **VerTree panel**.
 .. image:: ./img/overview.png
    :width: 500
    :align: center
+   :class: img-rounded
 
 Operators
 --------
@@ -15,8 +16,7 @@ There are multiple things you can do in VerTree
 
 .. image:: ./img/actions.png
    :width: 200
-   :class: with-shadow float-right with-border
-   :class: img-rounded
+   :class: with-shadow float-right img-rounded
 
 
 
@@ -43,8 +43,7 @@ Main
 ^^^^
 .. image:: ./img/main.png
    :width: 200
-   :class: with-shadow float-right with-border
-   :class: img-rounded
+   :class: with-shadow float-right img-rounded
 
 
 * **Trunk segments** are the number of verts on the cross-section of the tree, it gets accorddingly lower on next branches
@@ -61,8 +60,7 @@ this influences growth direction of all branches
 
 .. image:: ./img/growth.png
    :width: 200
-   :class: with-shadow float-right with-border
-   :class: img-rounded
+   :class: with-shadow float-right img-rounded
 
 
 * **Bending Amount** *primary effect* bends the tree according to noise
@@ -77,8 +75,7 @@ Branch
 ^^^^^^
 .. image:: ./img/branch.png
    :width: 200
-   :class: with-shadow float-right with-border
-   :class: img-rounded
+   :class: with-shadow float-right img-rounded
 
 I won't be explaining all of these in details, they are quite self-explanatory.
 
@@ -92,8 +89,7 @@ Simple Jiggle
 ^^^^^^^^^^^^^
 .. image:: ./img/jiggle.png
    :width: 200
-   :class: with-shadow float-right with-border
-   :class: img-rounded
+   :class: with-shadow float-right img-rounded
 
 
 **jiggle** is a noise that can help make branches and trunk be a little jagged and random, not intended to change direction like **bending**
@@ -104,8 +100,8 @@ Seeds and Variety
 ^^^^^^^^^^^^^^^^^
 .. image:: ./img/seeds.png
    :width: 200
-   :class: with-shadow float-right with-border
-   :class: img-rounded
+   :class: with-shadow float-right img-rounded
+   :class: 
 
 
 Seeds are self-explanatory, **branch variety** affects branch length and angle. 
@@ -117,8 +113,7 @@ Scale and Shape
 ^^^^^^^^^^^^^^
 .. image:: ./img/scale.png
    :width: 200
-   :class: with-shadow float-right with-border
-   :class: img-rounded
+   :class: with-shadow float-right img-rounded
 
 
 * **scale** changes the scale of the whole *mesh*, not object
@@ -132,8 +127,7 @@ Advanced
 ^^^^^^^^
 .. image:: ./img/advanced.png
    :width: 200
-   :class: with-shadow float-right with-border
-   :class: img-rounded
+   :class: with-shadow float-right img-rounded
 
 
 Lets the user select the leaf object.
